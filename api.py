@@ -144,4 +144,4 @@ def create_app():
     setup_routes(app)
     return app
 
-app = create_app()
+app = create_app() # Create a FastAPI app with routes from setup routes
